@@ -1,9 +1,10 @@
 @import "../bourbon/bourbon"
 
-$color: #FF9A47 //Theme skin
+$color: #FF9A47 //Theme skin 
 $text_color: #888
 $main_color: #222
 $bg_light: #FAFAFA
+$header_color: #F6F6F6
 
 =kerning($kerning)
 	letter-spacing: $kerning + px
@@ -15,6 +16,9 @@ body
 a
 	color: $color
 
+.wrap-header
+	color: $header_color
+	
 p
 	color: $text_color
 
@@ -46,13 +50,18 @@ p
 	background-repeat: no-repeat
 	background-position: center center
 
-svg
-	height: 100px
-	width: 220px
-	z-index: 100
-	position: relative
+svg 
 	path
 		fill: #fff
 
 .menu-toggle
 	background-color: $main_color
+
+.top-menu
+	background-color: rgba(0,0,0,.9)
+	a 
+		color: #fff
+		+kerning(3)
+		transition: background-color .5s
+	a:hover
+		background-color: rgba(255,255,255,0.05) 

@@ -6,7 +6,24 @@ $(document).ready(function() {
 	heightDetect();
 
 	$(window).resize(function(event) {
-	heightDetect();
+		heightDetect();
+	});
+
+	$(".menu-toggle").click(function() {
+  		if($(".switch").hasClass('active')) {
+  			$(".top-menu").fadeOut('600');
+  			$(".top-menu li a").removeClass('fadeInUp animated');
+  		} else {
+  			$(".top-menu").fadeIn('600');
+  			$(".top-menu li a").addClass('fadeInUp animated');
+  		}
+  		$(".switch").toggleClass("active");
+	});
+
+	$(".top-menu ul li a").click(function() {
+		$(".top-menu").fadeOut('600');
+		$(".top-menu li a").removeClass('fadeInUp animated');
+		$(".switch").toggleClass("active");
 	});
 });
 $(window).load(function() {

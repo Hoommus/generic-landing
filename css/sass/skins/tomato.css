@@ -5,6 +5,9 @@ body {
 a {
   color: #FF9A47; }
 
+.wrap-header {
+  color: #F6F6F6; }
+
 p {
   color: #888; }
 
@@ -38,12 +41,19 @@ p {
   background-repeat: no-repeat;
   background-position: center center; }
 
-svg {
-  height: 100px;
-  width: 220px;
-  z-index: 100;
-  position: relative; }
-  svg path {
-    fill: #fff; }
+svg path {
+  fill: #fff; }
+
+.menu-toggle {
+  background-color: #222; }
+
+.top-menu {
+  background-color: rgba(0, 0, 0, 0.9); }
+  .top-menu a {
+    color: #fff;
+    letter-spacing: 3px;
+    transition: background-color 0.5s; }
+  .top-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.05); }
 
 /*# sourceMappingURL=tomato.css.map */
