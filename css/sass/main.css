@@ -1,0 +1,50 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+section,
+.main-head {
+  position: relative; }
+
+.main-head {
+  min-height: 620px;
+  padding-top: 20px; }
+
+.logo-container {
+  float: left; }
+
+section {
+  min-height: 500px; }
+
+#header-overlay {
+  background: #000;
+  opacity: 0.6;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9998;
+  left: 0;
+  position: absolute;
+  z-index: 2; }
+
+#header-text {
+  z-index: 4; }
+
+/*# sourceMappingURL=main.css.map */
