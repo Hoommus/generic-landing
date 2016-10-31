@@ -134,16 +134,16 @@ svg {
       display: block;
       padding: 20px 0;
       text-transform: uppercase;
-      font-size: 1.5em; }
+      font-size: 1.1em; }
 
 /******************************** */
 /******************************** */
 /******************************** */
 /******************************** */
 .menu-toggle {
-  padding: 30px 25px;
-  width: 96px;
-  height: 96px;
+  padding: 1.2em 1em;
+  width: 4em;
+  height: 4em;
   float: right;
   border: none;
   position: fixed;
@@ -152,8 +152,8 @@ svg {
   z-index: 6; }
 
 .switch {
-  width: 72px;
-  height: 48px;
+  width: 3em;
+  height: 2em;
   margin: auto;
   display: block; }
   .switch > span {
@@ -161,8 +161,8 @@ svg {
   .switch .sw-topper {
     position: relative;
     top: 0;
-    width: 48px;
-    height: 4px;
+    width: 2em;
+    height: 0.16667em;
     background: white;
     border: none;
     border-radius: 4px;
@@ -170,9 +170,9 @@ svg {
     /* transition-delay: 0.2s, 0s */ }
   .switch .sw-bottom {
     position: relative;
-    width: 48px;
-    height: 4px;
-    top: 12px;
+    width: 2em;
+    height: 0.16667em;
+    top: 0.5em;
     background: white;
     border: none;
     border-radius: 4px;
@@ -180,9 +180,9 @@ svg {
     transition-delay: 0.2s, 0s; }
   .switch .sw-footer {
     position: relative;
-    width: 48px;
-    height: 4px;
-    top: 24px;
+    width: 2em;
+    height: 0.16667em;
+    top: 1em;
     background: white;
     border: none;
     border-radius: 4px;
