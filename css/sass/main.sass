@@ -28,7 +28,7 @@ section,
 	padding-top: 20px
 
 .logo-container
-	float: left
+	text-align: center
 
 #header-overlay
 	background: #000
@@ -182,27 +182,28 @@ $wdt: $hei * 3
 					font-size: 3.4em
 					padding: 10px 30px
 					border: 5px solid #fafafa
+					+animation-delay(.6s)
 				p
 					font-size: 2.2em
 					color: #DDD
+					+animation-delay(.9s)
 /**********************************/
 /**********************************/
 section 
-	padding: 70px 0
+	padding: 4em 0 5em 0 
 	
 	hr
 		width: 50%
 
 	.about-descr
 		text-align: center
-		text-transform: uppercase
-
+		
 		h2
+			text-transform: uppercase
 			font-size: 2.4em
 			+kerning(3)
 
 .main-footer
-	padding: 50px 0
+	padding: 2em 0
 	font-family: Arial, Open Sans, sans
-	font-size: 1.6em
-	color: #FAFAFA
+	color: #FAFAFA 

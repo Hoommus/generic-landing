@@ -25,6 +25,11 @@ $(document).ready(function() {
 		$(".top-menu li a").removeClass('fadeInUp animated');
 		$(".switch").toggleClass("active");
 	});
+
+	$(".wrap-header h1").animated("fadeInDown", "fadeOutUp")
+	$(".wrap-header p, .about-descr").animated("fadeInUp", "fadeOutDown")
+
+	$("").animated("","")
 });
 $(window).load(function() {
 	$(".loader-inner").fadeOut();

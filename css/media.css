@@ -43,7 +43,19 @@
 	}
 
 	svg {
-		width: 30% !important;
+		width: 50% !important;
+	}
+	.about-descr h2 {
+		font-size: 1.3em !important;
+		font-weight: 700;
+	}
+
+	.about-descr h3 {
+		font-size: 1.1em !important;
+	}
+
+	section {
+		padding: 3em 0 !important;
 	}
 }
 
