@@ -26,10 +26,12 @@ $(document).ready(function() {
 		$(".switch").toggleClass("active");
 	});
 
-	$(".wrap-header h1").animated("fadeInDown", "fadeOutUp")
-	$(".wrap-header p, .about-descr").animated("fadeInUp", "fadeOutDown")
+	$(".wrap-header h1, .about-descr").animated("fadeInDown", "fadeOutUp")
+	$(".wrap-header p").animated("fadeInUp", "fadeOutDown")
 
-	$("").animated("","")
+	$(".content-col-left").animated("fadeInLeft","fadeOutRight")
+	$(".content-col-right").animated("fadeInRight","fadeOutLeft")
+	$(".content-col-mid").animated("fadeIn","fadeOut")
 });
 $(window).load(function() {
 	$(".loader-inner").fadeOut();

@@ -1,8 +1,14 @@
+@charset "UTF-8";
 .bg-light {
-  background: #FAFAFA; }
+  background: #FAFAFA;
+  color: #888; }
 
 .bg-dark {
-  background-color: #222; }
+  background-color: #222;
+  color: #FAFAFA; }
+
+.bg-white {
+  background-color: white; }
 
 body {
   color: #222;
@@ -61,5 +67,13 @@ svg path {
     transition: background-color 0.5s; }
   .top-menu a:hover {
     background-color: rgba(255, 255, 255, 0.05); }
+
+.content-col ul {
+  list-style-type: none; }
+  .content-col ul li {
+    color: #222; }
+  .content-col ul li:before {
+    content: "★";
+    font-size: 1.2em; }
 
 /*# sourceMappingURL=tomato.css.map */

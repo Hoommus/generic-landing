@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .bg-light {
   background: #FAFAFA;
   color: #888; }
@@ -5,6 +6,9 @@
 .bg-dark {
   background-color: #222;
   color: #FAFAFA; }
+
+.bg-white {
+  background-color: white; }
 
 body {
   color: #222;
@@ -64,6 +68,15 @@ svg path {
   .top-menu a:hover {
     background-color: rgba(255, 255, 255, 0.05); }
 
+.content-col ul {
+  list-style-type: none; }
+  .content-col ul li {
+    color: #222; }
+  .content-col ul li:before {
+    content: "★";
+    font-size: 1.2em;
+    margin-right: 5px; }
+
 body {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
@@ -94,6 +107,9 @@ section,
 
 .logo-container {
   text-align: center; }
+
+.window {
+  min-height: 700px; }
 
 #header-overlay {
   background: #000;
@@ -256,5 +272,11 @@ section {
   padding: 2em 0;
   font-family: Arial, Open Sans, sans;
   color: #FAFAFA; }
+
+#unkle {
+  width: 100%; }
+
+.section-content h3 {
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */

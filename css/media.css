@@ -57,6 +57,9 @@
 	section {
 		padding: 3em 0 !important;
 	}
+	.window {
+		min-height: 200px !important;
+	}
 }
 
 /* Extra Small Devices, Phones */
