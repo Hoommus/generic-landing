@@ -30,9 +30,6 @@ section,
 .logo-container
 	float: left
 
-section
-	min-height: 500px
-
 #header-overlay
 	background: #000
 	opacity: .6
@@ -46,7 +43,6 @@ section
 	z-index: 2
 
 svg
-	height: 100px
 	width: 220px
 	z-index: 100
 	position: relative
@@ -146,10 +142,10 @@ $wdt: $hei * 3
 
 .switch.active 
 	.sw-topper
-		top: 15px
+		top: $hei * 0.75
 		transform: rotate(140deg)
 	.sw-bottom
-		top: 10px
+		top: $hei * 0.5
 		transform: rotate(-140deg)
 	.sw-footer
 		opacity: 0
@@ -189,3 +185,24 @@ $wdt: $hei * 3
 				p
 					font-size: 2.2em
 					color: #DDD
+/**********************************/
+/**********************************/
+section 
+	padding: 70px 0
+	
+	hr
+		width: 50%
+
+	.about-descr
+		text-align: center
+		text-transform: uppercase
+
+		h2
+			font-size: 2.4em
+			+kerning(3)
+
+.main-footer
+	padding: 50px 0
+	font-family: Arial, Open Sans, sans
+	font-size: 1.6em
+	color: #FAFAFA

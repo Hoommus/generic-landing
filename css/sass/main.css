@@ -1,3 +1,9 @@
+.bg-light {
+  background: #FAFAFA; }
+
+.bg-dark {
+  background-color: #222; }
+
 body {
   color: #222;
   letter-spacing: 1px; }
@@ -87,9 +93,6 @@ section,
 .logo-container {
   float: left; }
 
-section {
-  min-height: 500px; }
-
 #header-overlay {
   background: #000;
   opacity: 0.6;
@@ -103,7 +106,6 @@ section {
   z-index: 2; }
 
 svg {
-  height: 100px;
   width: 220px;
   z-index: 100;
   position: relative; }
@@ -134,16 +136,16 @@ svg {
       display: block;
       padding: 20px 0;
       text-transform: uppercase;
-      font-size: 1.5em; }
+      font-size: 1.1em; }
 
 /******************************** */
 /******************************** */
 /******************************** */
 /******************************** */
 .menu-toggle {
-  padding: 30px 25px;
-  width: 96px;
-  height: 96px;
+  padding: 1.2em 1em;
+  width: 4em;
+  height: 4em;
   float: right;
   border: none;
   position: fixed;
@@ -152,8 +154,8 @@ svg {
   z-index: 6; }
 
 .switch {
-  width: 72px;
-  height: 48px;
+  width: 3em;
+  height: 2em;
   margin: auto;
   display: block; }
   .switch > span {
@@ -161,8 +163,8 @@ svg {
   .switch .sw-topper {
     position: relative;
     top: 0;
-    width: 48px;
-    height: 4px;
+    width: 2em;
+    height: 0.16667em;
     background: white;
     border: none;
     border-radius: 4px;
@@ -170,9 +172,9 @@ svg {
     /* transition-delay: 0.2s, 0s */ }
   .switch .sw-bottom {
     position: relative;
-    width: 48px;
-    height: 4px;
-    top: 12px;
+    width: 2em;
+    height: 0.16667em;
+    top: 0.5em;
     background: white;
     border: none;
     border-radius: 4px;
@@ -180,9 +182,9 @@ svg {
     transition-delay: 0.2s, 0s; }
   .switch .sw-footer {
     position: relative;
-    width: 48px;
-    height: 4px;
-    top: 24px;
+    width: 2em;
+    height: 0.16667em;
+    top: 1em;
     background: white;
     border: none;
     border-radius: 4px;
@@ -190,10 +192,10 @@ svg {
     transition-delay: 0.1s; }
 
 .switch.active .sw-topper {
-  top: 15px;
+  top: 0.75em;
   transform: rotate(140deg); }
 .switch.active .sw-bottom {
-  top: 10px;
+  top: 0.5em;
   transform: rotate(-140deg); }
 .switch.active .sw-footer {
   opacity: 0;
@@ -202,7 +204,7 @@ svg {
 
 /******************************* */
 .top-wrapper {
-  display: block;
+  display: table;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -216,10 +218,33 @@ svg {
       vertical-align: middle;
       display: table-cell; }
       .top-wrapper .top-description .top-centered .wrap-header {
-        display: inline-block; }
+        display: inline-block;
+        padding: 0 60px;
+        text-shadow: 0 0 3px #000;
+        text-transform: uppercase;
+        font-weight: 600; }
         .top-wrapper .top-description .top-centered .wrap-header h1 {
-          font-size: 2em; }
+          font-size: 3.4em;
+          padding: 10px 30px;
+          border: 5px solid #fafafa; }
         .top-wrapper .top-description .top-centered .wrap-header p {
-          font-size: 1.6em; }
+          font-size: 2.2em;
+          color: #DDD; }
+
+/********************************* */
+/********************************* */
+section {
+  padding: 70px 0; }
+  section hr {
+    width: 50%; }
+  section .about-descr {
+    text-align: center;
+    text-transform: uppercase; }
+    section .about-descr h2 {
+      font-size: 2.4em;
+      letter-spacing: 3px; }
+
+.main-footer {
+  padding: 50px 0; }
 
 /*# sourceMappingURL=main.css.map */
