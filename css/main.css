@@ -112,18 +112,6 @@ section,
 .window {
   min-height: 700px; }
 
-#header-overlay {
-  background: #000;
-  opacity: 0.6;
-  bottom: 0;
-  top: 0;
-  right: 0;
-  width: 100%;
-  z-index: 9998;
-  left: 0;
-  position: absolute;
-  z-index: 2; }
-
 svg {
   width: 220px;
   z-index: 100;
@@ -279,5 +267,31 @@ section {
 
 .section-content h3 {
   text-transform: uppercase; }
+
+.operations-container .right-align {
+  text-align: right;
+  border-right: 1px solid #ccc; }
+.operations-container .left-align {
+  text-align: left; }
+
+.operation-item {
+  margin-top: 1.5em; }
+
+.swords-icon,
+.tactics-icon {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center; }
+
+.swords-icon {
+  background-image: url("../img/wars.svg");
+  margin: 0 auto 0 0; }
+
+.tactics-icon {
+  background-image: url("../img/operations.svg");
+  margin: 0 0 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
