@@ -1,6 +1,6 @@
 @import "../bourbon/bourbon"
 
-$color: #FF9A47 //Theme skin 
+$color: #E8B900 //Theme skin 
 $text_color: #888
 $main_color: #222
 $bg_light: #FAFAFA
@@ -11,7 +11,7 @@ $header_color: #F6F6F6
 	color: $text_color
 
 .bg-dark
-	background-color: $main-color
+	background-color: $main_color
 	color: $bg_light
 
 .bg-white
@@ -40,8 +40,6 @@ p
 .color_border
 	border-color: $color
 
-.main-color-bg
-	background-color: $main_color
 
 .loader 
 	background: none repeat scroll 0 0 #FFFFFF
@@ -88,4 +86,14 @@ svg
 			font-size: 1.2em
 			margin-right: 5px
 
+.operations-container
+	h2.op-header
+		border-bottom: 1px solid $color
+		padding: 5px 15px
 	
+.operation-item
+	h3.date
+		color: $main_color
+		background-color: $color
+		padding: 5px 15px
+		display: inline

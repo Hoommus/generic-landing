@@ -15,7 +15,7 @@ body {
   letter-spacing: 1px; }
 
 a {
-  color: #FF9A47; }
+  color: #E8B900; }
 
 .wrap-header {
   color: #F6F6F6; }
@@ -24,16 +24,13 @@ p {
   color: #888; }
 
 .color_element {
-  color: #FF9A47; }
+  color: #E8B900; }
 
 .color_bg {
-  background-color: #FF9A47; }
+  background-color: #E8B900; }
 
 .color_border {
-  border-color: #FF9A47; }
-
-.main-color-bg {
-  background-color: #222; }
+  border-color: #E8B900; }
 
 .loader {
   background: none repeat scroll 0 0 #FFFFFF;
@@ -77,5 +74,15 @@ svg path {
     content: "★";
     font-size: 1.2em;
     margin-right: 5px; }
+
+.operations-container h2.op-header {
+  border-bottom: 1px solid #E8B900;
+  padding: 5px 15px; }
+
+.operation-item h3.date {
+  color: #222;
+  background-color: #E8B900;
+  padding: 5px 15px;
+  display: inline; }
 
 /*# sourceMappingURL=tomato.css.map */

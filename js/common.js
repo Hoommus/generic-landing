@@ -29,9 +29,13 @@ $(document).ready(function() {
 	$(".wrap-header h1, .about-descr").animated("fadeInDown", "fadeOutUp")
 	$(".wrap-header p").animated("fadeInUp", "fadeOutDown")
 
+	/*	These animations totally break responsivity 
+		
 	$(".content-col-left").animated("fadeInLeft","fadeOutRight")
 	$(".content-col-right").animated("fadeInRight","fadeOutLeft")
 	$(".content-col-mid").animated("fadeIn","fadeOut")
+
+	*/
 });
 $(window).load(function() {
 	$(".loader-inner").fadeOut();

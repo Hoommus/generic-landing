@@ -15,7 +15,7 @@ body {
   letter-spacing: 1px; }
 
 a {
-  color: #FF9A47; }
+  color: #E8B900; }
 
 .wrap-header {
   color: #F6F6F6; }
@@ -24,16 +24,13 @@ p {
   color: #888; }
 
 .color_element {
-  color: #FF9A47; }
+  color: #E8B900; }
 
 .color_bg {
-  background-color: #FF9A47; }
+  background-color: #E8B900; }
 
 .color_border {
-  border-color: #FF9A47; }
-
-.main-color-bg {
-  background-color: #222; }
+  border-color: #E8B900; }
 
 .loader {
   background: none repeat scroll 0 0 #FFFFFF;
@@ -78,14 +75,32 @@ svg path {
     font-size: 1.2em;
     margin-right: 5px; }
 
+.operations-container h2.op-header {
+  border-bottom: 1px solid #E8B900;
+  padding: 5px 15px; }
+
+.operation-item h3.date {
+  color: #222;
+  background-color: #E8B900;
+  padding: 5px 15px;
+  display: inline; }
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Roboto", "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
   position: relative;
   line-height: 1.4;
   -webkit-font-smoothing: antialised; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", "Open Sans", "Raleway", sans-serif; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -259,7 +274,7 @@ section {
 
 .main-footer {
   padding: 2em 0;
-  font-family: Arial, Open Sans, sans;
+  font-family: Raleway, Open Sans, sans;
   color: #FAFAFA; }
 
 #unkle {
@@ -271,11 +286,23 @@ section {
 .operations-container .right-align {
   text-align: right;
   border-right: 1px solid #ccc; }
+  @media screen and (min-width: 320px) and (max-width: 992px) {
+    .operations-container .right-align {
+      float: none;
+      border-right: none;
+      border-bottom: 2px solid #E8B900; } }
 .operations-container .left-align {
   text-align: left; }
+  @media screen and (min-width: 320px) and (max-width: 992px) {
+    .operations-container .left-align {
+      float: none; } }
 
 .operation-item {
   margin-top: 1.5em; }
+
+.operations-container h2.op-header {
+  padding: 5px 15px;
+  text-transform: uppercase; }
 
 .swords-icon,
 .tactics-icon {
@@ -289,6 +316,9 @@ section {
 .swords-icon {
   background-image: url("../img/wars.svg");
   margin: 0 auto 0 0; }
+  @media screen and (min-width: 320px) and (max-width: 992px) {
+    .swords-icon {
+      margin: 0 auto; } }
 
 .tactics-icon {
   background-image: url("../img/operations.svg");
