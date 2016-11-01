@@ -86,7 +86,7 @@ svg path {
   display: inline; }
 
 body {
-  font-family: "Raleway", "Roboto", "Open Sans", sans-serif;
+  font-family: "Roboto", "Raleway", "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
@@ -303,6 +303,9 @@ section {
 .operations-container h2.op-header {
   padding: 5px 15px;
   text-transform: uppercase; }
+
+.operations-container:after {
+  content: " "; }
 
 .swords-icon,
 .tactics-icon {
