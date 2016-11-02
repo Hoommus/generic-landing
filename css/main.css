@@ -4,14 +4,14 @@
   color: #888; }
 
 .bg-dark {
-  background-color: #222;
+  background-color: #333;
   color: #FAFAFA; }
 
 .bg-white {
   background-color: white; }
 
 body {
-  color: #222;
+  color: #333;
   letter-spacing: 1px; }
 
 a {
@@ -55,7 +55,7 @@ svg path {
   fill: #fff; }
 
 .menu-toggle {
-  background-color: #222; }
+  background-color: #333; }
 
 .top-menu {
   background-color: rgba(0, 0, 0, 0.9); }
@@ -69,7 +69,7 @@ svg path {
 .content-col ul {
   list-style-type: none; }
   .content-col ul li {
-    color: #222; }
+    color: #333; }
   .content-col ul li:before {
     content: "★";
     font-size: 1.2em;
@@ -80,7 +80,7 @@ svg path {
   padding: 5px 15px; }
 
 .operation-item h3.date {
-  color: #222;
+  color: #333;
   background-color: #E8B900;
   padding: 5px 15px;
   display: inline; }
@@ -326,5 +326,25 @@ section {
 .tactics-icon {
   background-image: url("../img/operations.svg");
   margin: 0 0 0 auto; }
+
+/******************************************** */
+.gallery-list {
+  margin: 0 0 30px 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  letter-spacing: 2px; }
+  .gallery-list li {
+    color: #333;
+    padding: 0 10px;
+    display: inline-block;
+    margin: 0 15px;
+    text-transform: uppercase;
+    cursor: pointer; }
+  .gallery-list li.active {
+    color: #000;
+    border-bottom-color: #E8B900;
+    border-bottom-style: solid;
+    border-bottom-width: 2px; }
 
 /*# sourceMappingURL=main.css.map */

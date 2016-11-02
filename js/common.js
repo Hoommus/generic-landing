@@ -26,8 +26,13 @@ $(document).ready(function() {
 		$(".switch").toggleClass("active");
 	});
 
-	$(".wrap-header h1, .about-descr").animated("fadeInDown", "fadeOutUp")
-	$(".wrap-header p").animated("fadeInUp", "fadeOutDown")
+	$(".wrap-header h1, .about-descr").animated("fadeInDown", "fadeOutUp");
+	$(".wrap-header p").animated("fadeInUp", "fadeOutDown");
+
+	$(".gallery-list li").click(function(event) {
+		$("li.active").removeClass("active");
+		$(this).addClass("active");
+	});
 
 	/*	These animations totally break responsivity 
 		

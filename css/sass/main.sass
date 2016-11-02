@@ -258,3 +258,24 @@ section
 	background-image: url('../img/operations.svg')
 	margin: 0 0 0 auto
 
+/*********************************************/
+
+.gallery-list
+	margin: 0 0 30px 0
+	padding: 0
+	list-style-type: none
+	text-align: center
+	+kerning(2)
+	li
+		color: $main_color
+		padding: 0 10px
+		display: inline-block
+		margin: 0 15px
+		text-transform: uppercase
+		cursor: pointer
+	li.active
+		color: #000
+		border-bottom-color: $color
+		border-bottom-style: solid
+		border-bottom-width: 2px
+
