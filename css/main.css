@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .bg-light {
   background: #FAFAFA;
-  color: #888; }
+  color: #666; }
 
 .bg-dark {
   background-color: #333;
@@ -21,7 +21,7 @@ a {
   color: #F6F6F6; }
 
 p {
-  color: #888; }
+  color: #666; }
 
 .color_element {
   color: #E8B900; }
@@ -346,5 +346,8 @@ section {
     border-bottom-color: #E8B900;
     border-bottom-style: solid;
     border-bottom-width: 2px; }
+
+.gallery-item {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
