@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+	$("#cont").mixItUp();
+	
 	function heightDetect() {
 		$(".main-head").css("height",$(window).height());
 		$("#header-overlay").css("height",$(window).height());
@@ -33,6 +36,8 @@ $(document).ready(function() {
 		$("li.active").removeClass("active");
 		$(this).addClass("active");
 	});
+
+
 
 	/*	These animations totally break responsivity 
 		
