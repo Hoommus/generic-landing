@@ -173,17 +173,17 @@ $wdt: $hei * 3
 
 			.wrap-header 
 				display: inline-block
-				padding: 0 60px
+				//padding: 0 60px
 				text-shadow: 0 0 3px #000
 				text-transform: uppercase
 				font-weight: 600
 				h1
-					font-size: 3.4em
-					padding: 10px 30px
+					//font-size: 3.4em
+					//padding: 10px 30px
 					border: 5px solid #fafafa
 					+animation-delay(.6s)
 				p
-					font-size: 2.2em
+					//font-size: 2.2em
 					color: #DDD
 					+animation-delay(.9s)
 
@@ -261,16 +261,16 @@ section
 /*********************************************/
 
 .gallery-list
-	margin: 0 0 30px 0
+	//margin: 30px 0
 	padding: 0
 	list-style-type: none
 	text-align: center
 	+kerning(2)
 	li
 		color: $main_color
-		padding: 0 10px
+		//padding: 0 10px
 		display: inline-block
-		margin: 0 15px
+		//margin: 0 15px
 		text-transform: uppercase
 		cursor: pointer
 	li.active
@@ -279,5 +279,34 @@ section
 		border-bottom-style: solid
 		border-bottom-width: 2px
 
-.gallery-item
+.mix
 	display: none
+
+
+	
+.gallery-item
+	background-repeat: no-repeat
+	background-position: center top
+	background-size: 100%
+	img
+		max-width: 100%
+		max-height: 300px
+		height: auto
+
+.gallery-item:hover
+	.gallery-description
+		opacity: 0.8
+
+
+.gallery-item
+	.gallery-description
+		text-align: center
+		color: #EEE
+		background-color: $main_color
+		opacity: 0
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		transition: opacity 0.5s
