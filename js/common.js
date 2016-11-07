@@ -37,7 +37,10 @@ $(document).ready(function() {
 		$(this).addClass("active");
 	});
 
-
+	$(".gallery-button").magnificPopup({
+		delegate: '.gallery-button',
+		type: 'image'
+	});
 
 	/*	These animations totally break responsivity 
 		
