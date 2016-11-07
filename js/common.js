@@ -38,7 +38,6 @@ $(document).ready(function() {
 	});
 
 	$(".gallery-button").magnificPopup({
-		delegate: '.gallery-button',
 		type: 'image'
 	});
 

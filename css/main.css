@@ -46,7 +46,7 @@ p {
 .loader-inner {
   width: inherit;
   height: inherit;
-  background-image: url("../../img/cog.gif"), url("../../img/skull.svg");
+  background-image: url("../../img/cog.svg"), url("../../img/skull.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 270px 270px, 150px 150px; }
@@ -379,6 +379,14 @@ section {
   .gallery-item .gallery-description .gallery-button {
     background: #EEE;
     color: #111;
-    border: 1px solid white; }
+    border: 1px solid white;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .gallery-item .gallery-description .gallery-button:hover {
+    cursor: pointer;
+    background: #DDD;
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
