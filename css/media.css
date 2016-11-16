@@ -4,7 +4,7 @@
     text-align: justify; }
 
   .about-descr h2 {
-    font-size: 1.8em; }
+    font-size: 1.7em; }
 
   .wrap-header {
     padding: 0 10px; }
@@ -18,7 +18,23 @@
       padding: 0 10px;
       margin: 10px 15px; }
     .gallery-list li.active {
-      border-bottom-width: 2px; } }
+      border-bottom-width: 2px; }
+
+  .gallery-item,
+  .gallery-description {
+    min-height: 100px; }
+    .gallery-item h1,
+    .gallery-description h1 {
+      font-size: 1.3em; }
+    .gallery-item p,
+    .gallery-description p {
+      font-size: 1em; }
+    .gallery-item .gallery-button,
+    .gallery-description .gallery-button {
+      font-size: 1.2em; }
+
+  .gallery-table {
+    text-align: center; } }
 /* Desktops */
 @media screen and (min-width: 1024px) {
   body {
@@ -39,7 +55,20 @@
     margin: 30px 0; }
     .gallery-list li {
       padding: 0 10px;
-      margin: 10px 30px; } }
+      margin: 10px 30px; }
+
+  .gallery-item,
+  .gallery-description {
+    min-height: 200px; }
+    .gallery-item h1,
+    .gallery-description h1 {
+      font-size: 1.8em; }
+    .gallery-item p,
+    .gallery-description p {
+      font-size: 1.4em; }
+    .gallery-item .gallery-button,
+    .gallery-description .gallery-button {
+      font-size: 1.6em; } }
 /* Styles */
 /* Smartphones (portrait) ----------- */
 /* iPads (portrait and landscape) ----------- */

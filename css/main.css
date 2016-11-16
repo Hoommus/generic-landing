@@ -3,8 +3,14 @@
   background: #FAFAFA;
   color: #666; }
 
+.bg-light p {
+  color: #666; }
+
 .bg-dark {
   background-color: #333;
+  color: #FAFAFA; }
+
+.bg-dark p {
   color: #FAFAFA; }
 
 .bg-white {
@@ -265,7 +271,6 @@ section {
     text-align: center; }
     section .about-descr h2 {
       text-transform: uppercase;
-      font-size: 2.4em;
       letter-spacing: 3px; }
 
 .main-footer {
@@ -348,10 +353,6 @@ section {
   display: none; }
 
 .gallery-item {
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 100%;
-  min-height: 220px;
   padding: 0; }
   .gallery-item img {
     max-width: 100%;
