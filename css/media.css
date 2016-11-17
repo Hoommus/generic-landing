@@ -57,18 +57,15 @@
       padding: 0 10px;
       margin: 10px 30px; }
 
-  .gallery-item,
-  .gallery-description {
-    min-height: 200px; }
-    .gallery-item h1,
-    .gallery-description h1 {
-      font-size: 1.8em; }
-    .gallery-item p,
-    .gallery-description p {
-      font-size: 1.4em; }
-    .gallery-item .gallery-button,
-    .gallery-description .gallery-button {
-      font-size: 1.6em; } }
+  .gallery-item h1,
+  .gallery-description h1 {
+    font-size: 1.5em; }
+  .gallery-item p,
+  .gallery-description p {
+    font-size: 1em; }
+  .gallery-item .gallery-button,
+  .gallery-description .gallery-button {
+    font-size: 1.2em; } }
 /* Styles */
 /* Smartphones (portrait) ----------- */
 /* iPads (portrait and landscape) ----------- */

@@ -37,9 +37,10 @@ $(document).ready(function() {
 		$(this).addClass("active");
 	});
 
-	$(".gallery-button").magnificPopup({
-		type: 'image'
-	});
+	$('.gallery-button').magnificPopup({
+  		type:'inline',
+ 		midClick: true 
+ 	});
 
 	/*	These animations totally break responsivity 
 		
