@@ -1,22 +1,22 @@
 @import "../bourbon/bourbon"
 
-$color: #E8B900 //Theme skin 
+$color: #f3c202 //Theme skin 
 $text_color: #666
-$main_color: #333
-$bg_light: #FAFAFA
+$dark_color: #333
+$light_color: #FAFAFA
 $header_color: #F6F6F6
 
 .bg-light 
-	background: $bg_light
+	background: $light_color
 	color: $text_color
 .bg-light p
 	color: $text_color
 
 .bg-dark
-	background-color: $main_color
-	color: $bg_light
+	background-color: $dark_color
+	color: $light_color
 .bg-dark p
-	color: $bg_light
+	color: $light_color
 
 .bg-white
 	background-color: white
@@ -25,7 +25,7 @@ $header_color: #F6F6F6
 	letter-spacing: $kerning + px
 
 body
-	color: $main_color
+	color: $dark_color
 	+kerning(1)
 
 a
@@ -69,7 +69,7 @@ svg
 		fill: #fff
 
 .menu-toggle
-	background-color: $main_color
+	background-color: $dark_color
 
 .top-menu
 	background-color: rgba(0,0,0,.9)
@@ -84,7 +84,7 @@ svg
 	ul
 		list-style-type: none
 		li
-			color: $main_color
+			color: $dark_color
 		li:before
 			content: "★"
 			font-size: 1.2em
@@ -97,7 +97,7 @@ svg
 	
 .operation-item
 	h3.date
-		color: $main_color
+		color: $dark_color
 		background-color: $color
 		padding: 5px 15px
 		display: inline

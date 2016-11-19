@@ -272,7 +272,6 @@
 								<div id="castellian" class="gallery-popup mfp-hide">
 									<p>placeholder</p>
 									<img src="img/Lord Castellan.jpg" alt="">
-									<p>some text</p>
 								</div>
 							</div>
 						</div>
@@ -325,12 +324,51 @@
 	<section id="recruit" class="bg-white">
 		<div class="about-descr">
 			<h2>Присоединяйся!</h2>
+			<hr>
+			<h3>Заполни форму ниже и наши вербовщики свяжутся с тобой!</h3>
 		</div>
-		<hr>
 		<div class="section-content">
 			<div class="container">
 				<div class="row">
-					
+					<form id="enrollment-form" action="index_submit" method="get" accept-charset="utf-8">
+						<div class="col-md-6 form-col">
+							<table>
+								<tbody>
+									<tr>
+										<td><label for="name">Имя</label></td>
+										<td><input type="text" name="name" value=""></td>
+									</tr>
+									<tr>
+										<td><label for="surname">Фамилия</label></td>
+										<td><input type="text" name="surname" value=""></td>
+									</tr>
+									<tr>
+										<td><label for="planet">Планета</label></td>
+										<td><input type="text" name="planet" value=""></td>
+									</tr>
+								</tbody>
+							</table>							
+						</div>
+						<div class="col-md-6 form-col">
+							<table>
+								<tbody>
+									<tr>
+										<td><label for="name">Номер в <span style="border-bottom: 1px dotted grey; cursor: help" title="Планетарная сеть">ПС</span></label></td>
+										<td><input type="text" name="name" value=""></td>
+									</tr>
+									<tr>
+										<td><label for="surname">Фамилия</label></td>
+										<td><input type="text" name="surname" value=""></td>
+									</tr>
+									<tr>
+										<td><label for="planet">Планета</label></td>
+										<td><input type="text" name="planet" value=""></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<input class="enrollment" type="submit" name="" value="Отправить!">
+					</form>
 				</div>
 			</div>
 		</div>

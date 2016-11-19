@@ -21,7 +21,7 @@ body {
   letter-spacing: 1px; }
 
 a {
-  color: #E8B900; }
+  color: #f3c202; }
 
 .wrap-header {
   color: #F6F6F6; }
@@ -30,13 +30,13 @@ p {
   color: #666; }
 
 .color_element {
-  color: #E8B900; }
+  color: #f3c202; }
 
 .color_bg {
-  background-color: #E8B900; }
+  background-color: #f3c202; }
 
 .color_border {
-  border-color: #E8B900; }
+  border-color: #f3c202; }
 
 .loader {
   background: none repeat scroll 0 0 #FFFFFF;
@@ -82,12 +82,12 @@ svg path {
     margin-right: 5px; }
 
 .operations-container h2.op-header {
-  border-bottom: 1px solid #E8B900;
+  border-bottom: 1px solid #f3c202;
   padding: 5px 15px; }
 
 .operation-item h3.date {
   color: #333;
-  background-color: #E8B900;
+  background-color: #f3c202;
   padding: 5px 15px;
   display: inline; }
 
@@ -293,7 +293,7 @@ section {
     .operations-container .right-align {
       float: none;
       border-right: none;
-      border-bottom: 2px solid #E8B900; } }
+      border-bottom: 2px solid #f3c202; } }
 .operations-container .left-align {
   text-align: left; }
   @media screen and (min-width: 320px) and (max-width: 992px) {
@@ -347,7 +347,7 @@ section {
     cursor: pointer; }
   .gallery-list li.active {
     color: #000;
-    border-bottom-color: #E8B900;
+    border-bottom-color: #f3c202;
     border-bottom-style: solid;
     border-bottom-width: 2px; }
 
@@ -410,5 +410,48 @@ section {
   .gallery-popup p {
     margin: 20px;
     text-align: center; }
+
+.form-col table {
+  width: 100%; }
+  .form-col table tbody tr {
+    border-bottom: 20px solid transparent;
+    font-size: 1.7em; }
+  .form-col table tbody tr:last-child {
+    border-bottom: none; }
+  .form-col table tbody tr td:first-child {
+    width: 30%; }
+  .form-col table tbody tr td:last-child {
+    width: 70%; }
+    .form-col table tbody tr td:last-child input {
+      border: 1px solid #f3c202;
+      border-radius: 2px;
+      padding: 10px 20px;
+      min-width: 100%; }
+    .form-col table tbody tr td:last-child input:focus {
+      border: 2px solid #f3c202;
+      outline-color: #f3c202; }
+
+#enrollment-form {
+  text-align: center; }
+
+.enrollment {
+  background: transparent;
+  border: 1px solid #f3c202;
+  font-size: 1.7em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-top: 30px;
+  transition: background-color 0.5s, color 0.5s;
+  text-transform: uppercase; }
+
+.enrollment:hover {
+  background: #f3c202;
+  color: #FAFAFA;
+  transition: background-color 0.5s, color 0.5s; }
+
+.enrollment:focus {
+  border: 2px solid #f3c202;
+  outline-color: #f3c202; }
 
 /*# sourceMappingURL=main.css.map */
