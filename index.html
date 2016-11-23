@@ -133,7 +133,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="operations-container">
-						<div class="col-md-6 col-sm-6 right-align"><h2 class="op-header">Кампании</h2><div class="tactics-icon"></div> 
+						<div class="col-md-6 col-sm-8 col-xs-12 right-align"><h2 class="op-header">Кампании</h2><div class="tactics-icon"></div> 
 							<div class="operation-item">
 								<h3 class="date">392.M41 - 399.M41</h3>
 
@@ -159,7 +159,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-sm-6 left-align"><h2 class="op-header">Войны</h2>
+						<div class="col-md-6 col-sm-8 col-xs-12 left-align"><h2 class="op-header">Войны</h2>
 							<div class="swords-icon"></div>
 							<div class="operation-item">
 								<h3 class="date">762.M41</h3>
@@ -189,7 +189,7 @@
 					</div>
 
 				</div>
-				<div class="row"><div class="col-md-12 col-sm-12" style="text-align: center"><h2>И это далеко не всё! Вступай в ряды Имперской Гвардии и твори историю!</h2></div></div>
+				<div class="row"><div class="col-md-12 col-sm-8 col-xs-12" style="text-align: center"><h2>И это далеко не всё! Вступай в ряды Имперской Гвардии и твори историю!</h2></div></div>
 			</div>
 		</div>
 	</section>
@@ -331,41 +331,28 @@
 			<div class="container">
 				<div class="row">
 					<form id="enrollment-form" action="index_submit" method="get" accept-charset="utf-8">
-						<div class="col-md-6 form-col">
-							<table>
-								<tbody>
-									<tr>
-										<td><label for="name">Имя</label></td>
-										<td><input type="text" name="name" value=""></td>
-									</tr>
-									<tr>
-										<td><label for="surname">Фамилия</label></td>
-										<td><input type="text" name="surname" value=""></td>
-									</tr>
-									<tr>
-										<td><label for="planet">Планета</label></td>
-										<td><input type="text" name="planet" value=""></td>
-									</tr>
-								</tbody>
-							</table>							
+						<div class="col-md-6 col-xs-12 form-col">
+							<div class="col-md-4 col-sm-12 col-xs-12"><label for="name">Имя</label></div>
+							<div class="col-md-8 col-sm-12 col-xs-12">
+							<input type="text" name="name" value=""></div>
+							<div class="col-md-4 col-sm-12 col-xs-12"><label for="surname">Фамилия</label></div>
+							<div class="col-md-8 col-sm-12 col-xs-12">
+							<input type="text" name="surname" value=""></div>
+
+							<div class="col-md-4 col-sm-12 col-xs-12"><label for="planet">Планета</label></div>
+							<div class="col-md-8 col-sm-12 col-xs-12">
+							<input type="text" name="planet" value=""></div>						
 						</div>
-						<div class="col-md-6 form-col">
-							<table>
-								<tbody>
-									<tr>
-										<td><label for="name">Номер в <span style="border-bottom: 1px dotted grey; cursor: help" title="Планетарная сеть">ПС</span></label></td>
-										<td><input type="text" name="name" value=""></td>
-									</tr>
-									<tr>
-										<td><label for="surname">Фамилия</label></td>
-										<td><input type="text" name="surname" value=""></td>
-									</tr>
-									<tr>
-										<td><label for="planet">Планета</label></td>
-										<td><input type="text" name="planet" value=""></td>
-									</tr>
-								</tbody>
-							</table>
+						<div class="col-md-6 col-xs-12 form-col">
+							<div class="col-md-4 col-sm-12 col-xs-12"><label for="network">ID в <span style="border-bottom: 1px dotted grey; cursor: help" title="Планетарная сеть">ПС</span></label></div>
+							<div class="col-md-8 col-sm-12 col-xs-12">
+							<input type="text" name="network" value=""></div>
+							<div class="col-md-4 col-sm-12 col-xs-12"><label for="adress">Адрес</label></div>
+							<div class="col-md-8 col-sm-12 col-xs-12">
+							<input type="text" name="adress" value=""></div>
+							<div class="col-md-4 col-sm-12 col-xs-12"><label for="mil-type">Желаемый род войск</label></div>
+							<div class="col-md-8 col-sm-12 col-xs-12">
+							<input type="text" name="mil-type" value=""></div>
 						</div>
 						<input class="enrollment" type="submit" name="" value="Отправить!">
 					</form>

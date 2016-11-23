@@ -291,6 +291,7 @@ section {
   border-right: 1px solid #ccc; }
   @media screen and (min-width: 320px) and (max-width: 992px) {
     .operations-container .right-align {
+      text-align: left;
       float: none;
       border-right: none;
       border-bottom: 2px solid #f3c202; } }
@@ -298,6 +299,7 @@ section {
   text-align: left; }
   @media screen and (min-width: 320px) and (max-width: 992px) {
     .operations-container .left-align {
+      text-align: left;
       float: none; } }
 
 .operation-item {
@@ -411,25 +413,20 @@ section {
     margin: 20px;
     text-align: center; }
 
-.form-col table {
-  width: 100%; }
-  .form-col table tbody tr {
-    border-bottom: 20px solid transparent;
-    font-size: 1.7em; }
-  .form-col table tbody tr:last-child {
-    border-bottom: none; }
-  .form-col table tbody tr td:first-child {
-    width: 30%; }
-  .form-col table tbody tr td:last-child {
-    width: 70%; }
-    .form-col table tbody tr td:last-child input {
-      border: 1px solid #f3c202;
-      border-radius: 2px;
-      padding: 10px 20px;
-      min-width: 100%; }
-    .form-col table tbody tr td:last-child input:focus {
-      border: 2px solid #f3c202;
-      outline-color: #f3c202; }
+#recruit .about-descr {
+  margin-bottom: 30px; }
+
+.form-col div {
+  font-size: 1.7em;
+  border-bottom: 20px solid transparent; }
+  .form-col div input {
+    border: 1px solid #f3c202;
+    border-radius: 2px;
+    padding: 10px 20px;
+    width: 100%; }
+  .form-col div input:focus {
+    border: 1px solid #f3c202;
+    outline-color: #f3c202; }
 
 #enrollment-form {
   text-align: center; }
