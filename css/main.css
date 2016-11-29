@@ -429,6 +429,7 @@ section {
     outline-color: #f3c202; }
 
 #enrollment-form {
+  position: relative;
   text-align: center; }
 
 .enrollment {

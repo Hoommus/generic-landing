@@ -29,8 +29,12 @@ $(document).ready(function() {
 		$(".switch").toggleClass("active");
 	});
 
+	//* FUKKEN ANIMATIONS *//
 	$(".wrap-header h1, .about-descr").animated("fadeInDown", "fadeOutUp");
 	$(".wrap-header p").animated("fadeInUp", "fadeOutDown");
+	$("#enrollment-form .form-col:nth-child(1)").animated("fadeInDown", "fadeOut");
+	$("#enrollment-form .form-col:nth-child(2)").animated("fadeInDown", "fadeOut");
+	$(".enrollment").animated("flipInX", "flipOutX");
 
 	$(".gallery-list li").click(function(event) {
 		$("li.active").removeClass("active");
@@ -42,6 +46,20 @@ $(document).ready(function() {
  		midClick: true 
  	});
 
+	$('a[href^="#"]').click(function(){
+		var aTopOffset = $($(this).attr("href")).offset().top;
+		var duration = Math.abs(aTopOffset - $(window).scrollTop()) * 0.5;
+		if(duration > 1600)
+			duration = 1600 + Math.random() * 200 * Math.pow(-1, ~~(Math.random() * 100)); 
+		$("html, body").animate(
+			{ scrollTop: aTopOffset + 50 +"px" }, 
+			duration, 
+			"swing",
+			function() {
+				console.log("Ummm... Animation completed. duration = " + duration);
+			});
+	});
+	
 	/*	These animations totally break responsivity 
 		
 	$(".content-col-left").animated("fadeInLeft","fadeOutRight")
@@ -56,4 +74,3 @@ $(window).load(function() {
 	$(".loader-inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 });
-
