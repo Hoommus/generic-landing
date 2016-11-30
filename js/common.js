@@ -13,14 +13,14 @@ $(document).ready(function() {
 	});
 
 	$(".menu-toggle").click(function() {
-  		if($(".switch").hasClass('active')) {
-  			$(".top-menu").fadeOut('600');
-  			$(".top-menu li a").removeClass('fadeInUp animated');
-  		} else {
-  			$(".top-menu").fadeIn('600');
-  			$(".top-menu li a").addClass('fadeInUp animated');
-  		}
-  		$(".switch").toggleClass("active");
+		if($(".switch").hasClass('active')) {
+			$(".top-menu").fadeOut('600');
+			$(".top-menu li a").removeClass('fadeInUp animated');
+		} else {
+			$(".top-menu").fadeIn('600');
+			$(".top-menu li a").addClass('fadeInUp animated');
+		}
+		$(".switch").toggleClass("active");
 	});
 
 	$(".top-menu ul li a").click(function() {
@@ -42,19 +42,16 @@ $(document).ready(function() {
 	});
 
 	$('.gallery-button').magnificPopup({
-  		type:'inline',
- 		midClick: true 
- 	});
+		type:'inline',
+		midClick: true 
+	});
 
 	$('a[href^="#"]').click(function(){
 		var aTopOffset = $($(this).attr("href")).offset().top;
 		var duration = Math.abs(aTopOffset - $(window).scrollTop()) * 0.5;
 		if(duration > 1600)
 			duration = 1600 + Math.random() * 200 * Math.pow(-1, ~~(Math.random() * 100)); 
-		$("html, body").animate(
-			{ scrollTop: aTopOffset + 50 +"px" }, 
-			duration, 
-			"swing",
+		$("html, body").animate({ scrollTop: aTopOffset + 50 +"px" }, duration, "swing",
 			function() {
 				console.log("Ummm... Animation completed. duration = " + duration);
 			});
@@ -68,9 +65,11 @@ $(document).ready(function() {
 
 	*/
 });
-$(window).load(function() {
-	
 
+$(window).scroll(function(event) {
+	/* Act on the event */
+});
+$(window).load(function() {
 	$(".loader-inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 });
